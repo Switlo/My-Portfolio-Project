@@ -131,6 +131,12 @@ h4 {
     margin: 20px auto;
     max-width: 950px;
   }
+
+  .container img {
+    max-width: 500px;
+    display: block;
+    margin: 10px auto;
+  }
 }
 
 .footer {
