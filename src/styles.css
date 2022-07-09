@@ -104,6 +104,13 @@ h4 {
   text-align: center;
 }
 
+.text-about-me   img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  border-radius: 10px;
+}
+
 @media (max-width: 900px) {
   .first-screen {
     padding: 50px 15px 80px;
