@@ -169,6 +169,7 @@ footer {
   border-radius: 10px;
   background-color: var(--bckground-light);
   text-align: center;
+  margin-top: 20px;
 }
 
 footer a {
@@ -209,15 +210,15 @@ footer a {
   }
   .text-about-projects {
   text-align: center;
-  font-size: 16px;
+  font-size: 16px; 
+  padding: 0 8px; 
   }
 
   .projects-page h1 {
-    font-size: 50px;
-  
+    font-size: 50px;  
   }
 
-.projects-page-subtitle {
+  .projects-page-subtitle {
   font-size: 20px;
   padding: 0 15px 10px;
 }
