@@ -18,7 +18,7 @@ body {
 }
 
 .first-screen {
-  padding: 100px 20px 150px;
+  padding: 110px 20px 200px;
   text-align: center;
   background: var(--bckground-light);
 }
@@ -53,6 +53,28 @@ h4 {
   text-align: center;
 }
 
+.projects-page {
+  text-align: center;
+}
+
+.projects-page h1 {
+  font-family: var(--h1-font-family);
+  font-size: 60px;
+  color: var(--h1-color);
+  padding: 60px 20px 5px;
+  }
+
+.projects-page h2 {
+  color: var(--h1-color);
+  padding: 20px;
+}
+
+.projects-page-subtitle {
+  font-size: 22px;
+  color: var(--next-heading-color);
+ padding: 0 15px 20px
+}
+
 .first-screen button {
   background: var(--h1-color);
   border-radius: 8px;
@@ -75,7 +97,19 @@ h4 {
   padding: 20px 30px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
   transition: all 200ms ease-in-out;
+}
 
+.projects-buttons {
+  display:block;
+  margin: 0 auto;
+  background: var(--h1-color);
+  border-radius: 8px;
+  border: 1px solid #2b2336;
+  color: white;
+  font-size: 20px;
+  padding: 20px 30px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  transition: all 200ms ease-in-out;
 }
 
 button:hover {
@@ -83,6 +117,7 @@ button:hover {
   cursor: pointer;
   font-weight: bold;
 }
+
 .button-link {
   color: white;
   text-decoration: none;
@@ -125,14 +160,34 @@ button:hover {
   text-align: center;
 }
 
-.text-about-me   img {
-  display: block;
-  margin: 0 auto;
-  max-width: 100%;
-  border-radius: 10px;
+.text-about-projects {
+  text-align: left;
+  font-size: 17px;
 }
 
-@media (max-width: 900px) {
+footer {
+  border-radius: 10px;
+  background-color: var(--bckground-light);
+  text-align: center;
+}
+
+footer a {
+  color: var(--h1-color);
+  font-size: 2pc;
+  text-decoration: none;
+  padding: 0 50px;
+}
+
+.footer-caption {
+  font-size: 12px;
+  text-align: center;
+  padding: 10px;
+  color: var(--next-heading-color);
+  margin-bottom: 0;
+
+}
+
+@media (max-width: 800px) {
   .first-screen {
     padding: 50px 15px 80px;
   }
@@ -146,35 +201,33 @@ button:hover {
     margin: 15px;
     padding: 15px;
     text-align: justify;
+    column-count: 1;
   }
 
   .text-about-me h4 {
     font-size: 22px;
   }
+  .text-about-projects {
+  text-align: center;
+  font-size: 16px;
+  }
+
+  .projects-page h1 {
+    font-size: 50px;
+  
+  }
+
+.projects-page-subtitle {
+  font-size: 20px;
+  padding: 0 15px 10px;
+}
 }
 
-@media (min-width: 900px) {
+@media (min-width: 800px) {
   .text-about-me {
     display: block;
     margin: 20px auto;
-    max-width: 950px;
-  }
-
-  .container img {
-    max-width: 500px;
-    display: block;
-    margin: 10px auto;
+    max-width: 850px;
   }
 }
 
-.footer {
-  background: var(--bckground-light);
-  border-radius: 10px;
-  display: flex;
-  justify-content: space-around;
-}
-
-.footer a {
-  color: var(--h1-color);
-  font-size: 2pc;
-}
