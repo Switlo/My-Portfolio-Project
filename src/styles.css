@@ -53,7 +53,7 @@ h4 {
   text-align: center;
 }
 
-.projects-page {
+.projects-page, .contact-page {
   text-align: center;
 }
 
@@ -62,7 +62,7 @@ h4 {
   font-size: 60px;
   color: var(--h1-color);
   padding: 60px 20px 5px;
-  }
+}
 
 .projects-page h2 {
   color: var(--h1-color);
@@ -72,7 +72,15 @@ h4 {
 .projects-page-subtitle {
   font-size: 22px;
   color: var(--next-heading-color);
-  padding: 0 15px 20px
+  padding: 0 15px 20px;
+}
+
+.contact-page h1 {
+  font-family: var(--h1-font-family);
+  font-size: 60px;
+  color: var(--h1-color);
+  padding: 60px 20px;
+  text-align: center;
 }
 
 .first-screen button {
@@ -87,7 +95,7 @@ h4 {
 }
 
 .second-screen button {
-  display:block;
+  display: block;
   margin: 0 auto;
   background: var(--h1-color);
   border-radius: 8px;
@@ -100,7 +108,7 @@ h4 {
 }
 
 .projects-buttons {
-  display:block;
+  display: block;
   margin: 0 auto;
   background: var(--h1-color);
   border-radius: 8px;
@@ -168,6 +176,24 @@ button:hover {
 .text-link {
   text-decoration: none;
 }
+
+.contact-items {
+display: inline-block;
+margin: 0 auto;
+text-align: left;
+}
+.contact-items a {
+  color: var(--next-heading-color);
+  font-size: 18px;
+  text-decoration: none;
+  padding: 0 15px;
+}
+
+.contact-items i {
+  color: var(--h1-color);
+  font-size: 19px;
+}
+
 footer {
   display: block;
   margin: 0 auto;
@@ -176,7 +202,6 @@ footer {
   border-radius: 10px;
   background-color: var(--bckground-light);
   text-align: center;
-  
 }
 
 footer a {
@@ -192,7 +217,6 @@ footer a {
   padding: 10px;
   color: var(--next-heading-color);
   margin-bottom: 0;
-
 }
 
 @media (max-width: 800px) {
@@ -216,19 +240,27 @@ footer a {
     font-size: 22px;
   }
   .text-about-projects {
-  text-align: center;
-  font-size: 16px; 
-  padding: 0 8px; 
+    text-align: center;
+    font-size: 16px;
+    padding: 0 8px;
   }
 
   .projects-page h1 {
-    font-size: 50px;  
+    font-size: 50px;
   }
 
   .projects-page-subtitle {
-  font-size: 20px;
-  padding: 0 15px 10px;
-}
+    font-size: 20px;
+    padding: 0 15px 10px;
+  }
+
+  .contact-page h1 {
+    font-size: 50px;
+  }
+
+  .contact-page img {
+    width: 50%;
+  }
 }
 
 @media (min-width: 800px) {
@@ -237,5 +269,25 @@ footer a {
     margin: 20px auto;
     max-width: 850px;
   }
+  .contact-page img {
+    width: 40%;
+  }
+
+  .contact-items a {
+    font-size: 22px;
+ 
+}
 }
 
+@media (max-width: 280px) {
+  footer a {
+    font-size: 20px;
+  }
+  .contact-page img {
+    width: 75%;
+  }
+
+  .contact-items a {
+   font-size: 16px; 
+}
+}
