@@ -53,7 +53,8 @@ h4 {
   text-align: center;
 }
 
-.projects-page, .contact-page {
+.projects-page,
+.contact-page {
   text-align: center;
 }
 
@@ -178,9 +179,9 @@ button:hover {
 }
 
 .contact-items {
-display: inline-block;
-margin: 0 auto;
-text-align: left;
+  display: inline-block;
+  margin: 0 auto;
+  text-align: left;
 }
 .contact-items a {
   color: var(--next-heading-color);
@@ -264,6 +265,10 @@ footer a {
 }
 
 @media (max-width: 280px) {
+  .contact-page h1 {
+    font-size: 50px;
+    padding: 40px 20px 30px;
+  }
   footer a {
     font-size: 20px;
   }
@@ -272,8 +277,8 @@ footer a {
   }
 
   .contact-items a {
-   font-size: 16px; 
-}
+    font-size: 16px;
+  }
 }
 @media (min-width: 800px) {
   .text-about-me {
@@ -286,18 +291,12 @@ footer a {
   }
 
   .contact-items a {
-    font-size: 22px; 
-}
+    font-size: 22px;
+  }
 }
 
 @media (min-width: 1200px) {
-   .first-screen {
-     padding: 150px 20px 260px;
-   }
-
-   }
-
-
-
-
-
+  .first-screen {
+    padding: 150px 20px 260px;
+  }
+}
