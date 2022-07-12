@@ -173,8 +173,9 @@ button:hover {
   color: var(--next-heading-color);
   font-size: 17px;
   margin: 20px;
-  background-color: var(--background-dark);
   padding: 20px;
+  background-color: var(--background-dark);
+  
 }
 
 .text-about-me h4 {
