@@ -29,7 +29,7 @@ body {
 }
 
 .first-screen {
-  padding: 110px 20px 200px;
+  padding: 100px 20px 200px;
   text-align: center;
   background: var(--bckground-light);
 }
