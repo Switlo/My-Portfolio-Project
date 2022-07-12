@@ -64,6 +64,24 @@ h4 {
   text-align: center;
 }
 
+.my-skills ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.my-skills img {
+  display: inline;
+  width: 60px;
+  margin: 0 0 5px;
+  padding: 5px;
+}
+
+.my-skills p {
+  font-size: 14px;
+  font-weight: 500;
+}
+
 .projects-page,
 .contact-page {
   text-align: center;
@@ -215,7 +233,7 @@ footer {
   margin: 0 auto;
   margin-top: 20px;
   text-align: center;
- }
+}
 
 footer a {
   color: var(--h1-color);
@@ -281,7 +299,6 @@ footer a {
   .contact-page img {
     width: 65%;
   }
- 
 }
 
 @media (max-width: 280px) {
