@@ -100,7 +100,7 @@ h4 {
   border-radius: 8px;
   border: 1px solid #2b2336;
   color: white;
-  font-size: 20px;
+  font-size: 18px;
   padding: 18px 30px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
   transition: all 200ms ease-in-out;
@@ -113,7 +113,7 @@ h4 {
   border-radius: 8px;
   border: 1px solid #2b2336;
   color: white;
-  font-size: 20px;
+  font-size: 18px;
   padding: 18px 30px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
   transition: all 200ms ease-in-out;
@@ -126,7 +126,7 @@ h4 {
   border-radius: 8px;
   border: 1px solid #2b2336;
   color: white;
-  font-size: 20px;
+  font-size: 18px;
   padding: 18px 30px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
   transition: all 200ms ease-in-out;
@@ -175,7 +175,6 @@ button:hover {
   margin: 20px;
   padding: 20px;
   background-color: var(--background-dark);
-  
 }
 
 .text-about-me h4 {
@@ -215,17 +214,14 @@ footer {
   display: block;
   margin: 0 auto;
   margin-top: 20px;
-  max-width: 900px;
-  border-radius: 10px;
-  background-color: var(--bckground-light);
   text-align: center;
-}
+ }
 
 footer a {
   color: var(--h1-color);
   font-size: 2pc;
   text-decoration: none;
-  padding: 0 45px;
+  padding: 0 40px;
 }
 
 .footer-caption {
@@ -285,9 +281,7 @@ footer a {
   .contact-page img {
     width: 65%;
   }
-  footer {
-    background-color: transparent;
-  }
+ 
 }
 
 @media (max-width: 280px) {
