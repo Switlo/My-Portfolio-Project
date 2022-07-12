@@ -17,6 +17,17 @@ body {
   width: 130px;
 }
 
+.nav-item a:hover {
+  cursor: pointer;
+  color: var(--h1-color);
+  font-weight: 500;
+}
+
+.nav-item-active a {
+  color: var(--h1-color);
+  font-weight: 500;
+}
+
 .first-screen {
   padding: 110px 20px 200px;
   text-align: center;
@@ -139,6 +150,10 @@ button:hover {
   text-align: center;
 }
 
+.second-screen-main-img {
+  max-width: 60%;
+  margin: 0 auto;
+}
 .caption {
   padding-top: 0;
   margin-top: 0;
@@ -185,7 +200,7 @@ button:hover {
 }
 .contact-items a {
   color: var(--next-heading-color);
-  font-size: 18px;
+  font-size: 17px;
   text-decoration: none;
   padding: 0 15px;
 }
@@ -199,7 +214,7 @@ footer {
   display: block;
   margin: 0 auto;
   margin-top: 20px;
-  max-width: 600px;
+  max-width: 900px;
   border-radius: 10px;
   background-color: var(--bckground-light);
   text-align: center;
@@ -209,7 +224,7 @@ footer a {
   color: var(--h1-color);
   font-size: 2pc;
   text-decoration: none;
-  padding: 0 50px;
+  padding: 0 45px;
 }
 
 .footer-caption {
@@ -229,10 +244,17 @@ footer a {
     font-size: 50px;
   }
 
+  .second-screen-main-img {
+    max-width: 90%;
+  }
+
+  .caption {
+    font-size: 14px;
+  }
   .text-about-me {
     font-size: 16px;
-    margin: 15px;
-    padding: 15px;
+    margin: 20px;
+    padding: 20px;
     text-align: justify;
     column-count: 1;
   }
@@ -260,11 +282,27 @@ footer a {
   }
 
   .contact-page img {
-    width: 50%;
+    width: 65%;
+  }
+  footer {
+    background-color: transparent;
   }
 }
 
 @media (max-width: 280px) {
+  .second-screen h2 {
+    margin-top: 0px;
+    padding-top: 0px;
+    font-size: 30px;
+  }
+
+  .second-screen-main-img {
+    max-width: 90%;
+  }
+
+  .caption {
+    font-size: 13px;
+  }
   .contact-page h1 {
     font-size: 50px;
     padding: 40px 20px 30px;
@@ -277,26 +315,29 @@ footer a {
   }
 
   .contact-items a {
-    font-size: 16px;
+    font-size: 15px;
   }
 }
+
 @media (min-width: 800px) {
-  .text-about-me {
-    display: block;
-    margin: 20px auto;
-    max-width: 850px;
+  .first-screen {
+    padding: 50px 15px 80px;
   }
   .contact-page img {
     width: 40%;
   }
 
   .contact-items a {
-    font-size: 22px;
+    font-size: 20px;
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   .first-screen {
-    padding: 150px 20px 260px;
+    padding: 150px 20px 150px;
+  }
+  .text-about-me {
+    margin: 20px 60px;
+    padding: 30px;
   }
 }
