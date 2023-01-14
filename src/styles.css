@@ -228,6 +228,12 @@ button:hover {
   font-size: 19px;
 }
 
+.series-SoftServe-certificate {
+  color: var(--next-heading-color);
+  font-size: 13px;
+  text-align: center;
+}
+
 footer {
   display: block;
   margin: 0 auto;
@@ -299,6 +305,10 @@ footer a {
   .contact-page img {
     width: 65%;
   }
+
+  .series-SoftServe-certificate {
+    font-size: 10px;
+    }
 }
 
 @media (max-width: 280px) {
